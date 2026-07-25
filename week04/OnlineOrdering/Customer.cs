@@ -16,6 +16,13 @@ public class Customer
         return _address.IsInUSA();
     }
 
-    public string GetName() => _name;
-    public Address GetAddress() => _address;
+    public string GetName()
+    {
+        return _name;
+    }
+
+    public Address GetAddress()
+    {
+        return _address;
+    }
 }
